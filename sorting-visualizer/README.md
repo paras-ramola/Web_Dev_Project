@@ -6,7 +6,7 @@ It’s an interactive and educational tool designed to help learners understand 
 ---
 
 ## 🔗 Live Demo
-sorting-visualizer-orjewrqlz-paras-projects-3fce5b65.vercel.app
+https://sorting-visualizer-orjewrqlz-paras-projects-3fce5b65.vercel.app/
 
 
 ---
