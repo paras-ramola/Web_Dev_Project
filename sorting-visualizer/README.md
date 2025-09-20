@@ -1,12 +1,69 @@
-# React + Vite
+#  Sorting Visualizer 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that visualizes how different sorting algorithms work step by step.  
+It’s an interactive and educational tool designed to help learners understand sorting concepts through animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- Visualize popular sorting algorithms:
+  - Bubble Sort 
+  - Selection Sort 
+  - Insertion Sort 
+  - Merge Sort 
+  - Quick Sort 
+- Adjustable array size and visualization speed.
+- Generate a new random array anytime.
+- Smooth animations for better understanding.
+- Responsive and user-friendly interface.
+
+---
+
+##  Tech Stack
+- **Frontend:** React, JavaScript (ES6+), HTML, CSS  
+- **Styling:** TailwindCSS / CSS Modules (update based on your project)  
+- **Animations:** CSS transitions & React state updates  
+
+---
+
+
+
+
+---
+
+##  Getting Started
+
+### 1️⃣ Clone the repository:
+
+git clone https://github.com/your-username/sorting-visualizer.git 
+
+### 2️⃣ Navigate into the project folder:
+cd sorting-visualizer
+
+### 3️⃣ Install dependencies:
+npm install
+
+### 4️⃣ Run the development server:
+npm start
+
+### 5️⃣ Open in browser:
+http://localhost:3000
+
+---
+
+### Algorithms Implemented
+
+Bubble Sort: Repeatedly compares and swaps adjacent elements.
+
+Selection Sort: Selects the minimum element and places it in correct position.
+
+Insertion Sort: Builds a sorted portion one element at a time.
+
+Merge Sort: Divide and conquer algorithm that merges sorted halves.
+
+Quick Sort: Uses partitioning and recursion to sort efficiently.
