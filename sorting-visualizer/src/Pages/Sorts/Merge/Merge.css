@@ -1,0 +1,11 @@
+.redBar {
+  background-color: red;
+}
+
+.blueBar {
+  background-color: blue;
+}
+
+ .merge  .greenBar {
+  background-color: green !important;
+}

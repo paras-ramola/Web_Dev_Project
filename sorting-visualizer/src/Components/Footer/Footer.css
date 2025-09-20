@@ -1,0 +1,55 @@
+.footerContainer{
+    background-color: rgb(8, 11, 20);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+      /* font-family: Arial, Helvetica, sans-serif;
+   */
+  font-family: "Lucida Console", "Courier New", monospace;
+
+  padding-bottom: 80px;
+    
+}
+
+
+h3{
+    color: #D17F3F;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 26px;
+}
+
+.buildInfo{
+
+}
+
+.contactInfo{
+
+}
+
+.refernceInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.refernceInfo .github{
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+gap: 10px;
+text-decoration: none;
+}
+
+
+
+.refernceInfo img{
+    height: 20px;
+}

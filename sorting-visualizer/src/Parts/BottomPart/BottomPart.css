@@ -1,0 +1,150 @@
+* {
+  color: white;
+}
+.bottomContainer {
+  background: linear-gradient(
+    to bottom,
+    black 0%,
+    rgb(17, 17, 17) 80%,
+    rgb(70, 70, 70) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0 50px;
+  font-size: 28px;
+  /* font-family: Arial, Helvetica, sans-serif;
+   */
+  font-family: "Lucida Console", "Courier New", monospace;
+
+  padding-bottom: 60px;
+}
+
+.infoSort {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 20px 20px;
+}
+.infoSort p {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.infoSort a {
+  color: #d17f3f;
+}
+
+.description {
+  width: 60%;
+}
+.timeTable {
+  width: 35%;
+}
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+tr,
+td {
+  border: 2px solid salmon;
+  padding: 8px;
+}
+
+table tr {
+  border-left: none;
+  border-right: none;
+}
+table tr:first-child,
+table td:first-child {
+  border-top: none;
+  border-left: none;
+}
+table tr:first-child,
+table td:last-child {
+  border-top: none;
+  border-right: none;
+}
+table tr:last-child,
+table td:first-child {
+  border-bottom: none;
+  border-left: none;
+}
+table tr:last-child,
+table td:last-child {
+  border-bottom: none;
+  border-right: none;
+}
+
+.impBox {
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+.impBox h2{
+  margin-bottom: 20px;
+}
+.impContainer {
+  border: 2px solid #d17f3f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: transparent;
+  /* padding-bottom: 10px; */
+  width: fit-content;
+
+
+}
+
+codeBtns {
+  display: flex;
+  flex-direction: row;
+}
+
+.codeBtns button {
+  position: relative;
+  background-color: transparent;
+  padding: 8px 18px;
+  border: 1px solid #d17f3f;
+}
+
+.codeBtns button:first-child {
+  border-top-left-radius: 10px; /* Round only the first button */
+}
+
+/* Dark background behind each button */
+.codeBtns button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #353535;
+  z-index: 0;
+}
+
+/* Remove background effect when actively clicking */
+.codeBtns button:active::before {
+  content: none;
+    position: absolute;
+}
+
+.codeBtns img {
+  position: relative;
+  height: 37px;
+  z-index: 99; 
+}
+
+/* Hover effect: enlarge icon */
+.codeBtns button:hover img {
+  scale: 1.3;
+}
+
+.codeContent {
+  padding: 20px 40px;
+  width: fit-content;
+}
+

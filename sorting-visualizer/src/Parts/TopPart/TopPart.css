@@ -1,0 +1,147 @@
+.top-part {
+  height: 100vh;
+  color: white;
+  padding-top: 90px;
+  background-size: cover;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.top-box h1 {
+  /* transform: translateY(0); start here */
+  animation: moveDown 1s ease-out forwards;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-140px);
+  }
+  to {
+    transform: translateY(0px); 
+  }
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.ran-icon {
+  width: 60px;
+  background-color: #282727;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ran-icon:hover {
+  background-color: black;
+  scale: 1.2;
+  transition: linear 0.3s;
+}
+.play-icon {
+  padding: 12px;
+  background-color: #282727;
+  height: 50px;
+  border-radius: 10px;
+  width: 60px;
+}
+.play-icon:hover {
+  background-color: black;
+  scale: 1.2;
+  transition: linear 0.3s;
+}
+
+.top-box h1 {
+  font-size: 90px;
+  left: 0px;
+}
+
+.sort_box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 10px;
+  height: 100%;
+  z-index: 30;
+}
+
+.bar {
+  background: linear-gradient(
+    /* to right bottom, */
+    #c7c4c4 0%,
+    #9c9a9a 50%,
+    #191818 85%,
+    #171717 100%
+  );
+  /* z-index: 500; */
+  border-right: 0.1px solid     #323232 ;
+}
+
+.redBar {
+  /*to remove gradient you need backgrouund*/
+  background: red;
+  /* z-index: 900; */
+}
+
+.disable {
+  pointer-events: none;
+  background-color: rgb(115, 113, 113);
+}
+
+/* Remove default look */
+.slider {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  appearance: none;
+  width: 340px;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Track (the line) */
+.slider::-webkit-slider-runnable-track {
+  height: 8px;
+  background: linear-gradient(90deg, #abacab, #abacab);
+}
+.slider::-moz-range-track {
+  height: 8px;
+  background: linear-gradient(90deg, #abacab, #abacab);
+}
+
+/* Thumb (the handle) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 25px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -8px; /*centers thumb on track*/
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.slider::-moz-range-thumb {
+  height: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.sliderContainer p {
+  margin-bottom: 10px;
+}

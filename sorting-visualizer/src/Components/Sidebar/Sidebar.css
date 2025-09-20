@@ -1,0 +1,74 @@
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 2000; /*greater than navbar*/
+  padding-top: 10px;
+  transition: width 1s ease; /* smooth animation */
+  overflow: hidden; /* hides text/icons when width shrinks */
+}
+.options {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+  border-right: 2px solid orange;
+}
+
+.option {
+  font: 28px Oxygen;
+  color: #818181;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+.option h3 {
+  font: 30px;
+}
+
+.option h5 {
+  font: 25px;
+  color: #535353;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+.option p {
+  font: 28px Oxygen;
+  color: #818181;
+  padding: 10px 0px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.home-option {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.home-option h3 {
+  margin-left: 12px;
+}
+hr {
+  width: 90%;
+}
+.home-icon {
+  height: 38px;
+}
+
+.sort-title {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  margin: 3px;
+  height: 38px;
+  width: 28px;
+}
+
+.sort-title h3 {
+  margin-left: 13px;
+}
+.reduce-sidebar {
+  width: 0%;
+}

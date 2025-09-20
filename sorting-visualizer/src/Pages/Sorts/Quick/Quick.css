@@ -1,0 +1,9 @@
+ .qredBar {
+  background: red !important;
+  transition: background-color 0.1s ease;
+}
+
+.pivot {
+  background: blue !important;
+  transition: background-color 0.1s ease;
+}
